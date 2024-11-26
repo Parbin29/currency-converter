@@ -1,4 +1,4 @@
-namespace csharp_object;
+namespace currency_converter;
 
 public class Money
 {

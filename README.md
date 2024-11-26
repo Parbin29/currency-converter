@@ -22,3 +22,14 @@ dotnet run
 ```
 dotnet new gitignore
 ```
+
+### Add to source control (Git)
+```
+echo "# currency-converter" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Parbin29/currency-converter.git
+git push -u origin main
+```
